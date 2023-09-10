@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    overflow: scroll;
 }
                               /*HEADER*/
 
@@ -47,15 +48,14 @@ body{
 }
 
 
-                                                              /*BODY*/
+                                                              /*BODY1*/
 
 .body1{
     display: flex;
 }
 .body1 .left_body{
     width: 30%;
-    height: max-content;
-    border: 1px solid black;
+    height: 650px;
     background: linear-gradient(to right,rgb(100, 111, 204), #9c79af, #d68086);
 }
 .body1 .left_body .img1{
@@ -94,4 +94,45 @@ body{
 .body1 .right_body h1{
     margin-top: 300px;
     margin-left: 300px;
+    color: white;
+}
+.body1 .right_body h2{
+    margin-left: 350px;
+    color: cyan;
+}
+
+
+                            /*BODY2*/
+
+.body2{
+    padding: 20px;
+    background-color: rgb(62, 53, 53);
+    height: max-content;
+    overflow: hidden;
+}
+.body2 .about1{
+    margin-top: 50px;
+    color: green;
+    font-size: 50px;
+}
+.body2 .about2{
+    display: flex;
+}
+.body2 .about2 .about21{
+    padding: 20px;
+    width: 60%;
+    height: max-content;
+    font-size: 20px;
+    color: white;
+}
+.body2 .about2 .about22{
+    padding: 20px;
+    width: 40%;
+}
+.body2 .about2 .about22 .about_img{
+    margin-left: 150px;
+}
+.body2 .about2 .about22 .about_img img{
+    width: 300px;
+    height: 300px;
 }
