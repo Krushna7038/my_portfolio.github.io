@@ -43,10 +43,11 @@ body{
     margin: 5px;
     text-decoration: none;
     color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
-
+                                                              /*BODY*/
 
 .body1{
     display: flex;
@@ -80,6 +81,8 @@ body{
 .body1 .left_body .left_body_cont button:hover{
     background-color: blue;
     border-radius: 10px;
-    box-shadow: 5px 5px red;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
