@@ -102,7 +102,7 @@ body{
 }
 
 
-                            /*BODY2*/
+                                                                /*BODY2*/
 
 .body2{
     padding: 20px;
@@ -114,6 +114,18 @@ body{
     margin-top: 50px;
     color: green;
     font-size: 50px;
+}
+.body2 .about1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body2 .about1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .body2 .about2{
     display: flex;
