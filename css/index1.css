@@ -86,3 +86,12 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
+.body1 .right_body{
+    width: 70%;
+    height: 650px;
+}
+.body1 .right_body h1{
+    margin-top: 300px;
+    margin-left: 300px;
+}
