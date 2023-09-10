@@ -159,22 +159,15 @@ body{
     overflow: hidden;
 }
 .body3 .resume1{
-    padding: 20px;
     margin-top: 50px;
-}
-.body3 .resume1 h3{
-    margin-left: 40%;
+    color: cyan;
     font-size: 30px;
-    color: aqua;
-    float: left;
+    text-align: center;
 }
 .body3 .resume1 button{
     width: 100px;
-    height: 40px;
+    min-height: 40px;
     float: right;
-}
-.body3 .resume1 button a{
-    text-decoration: none;
 }
 .body3 .resume1 button:hover{
     background-color: blue;
