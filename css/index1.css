@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+                             /*HEADER*/
+
+
+.header1{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(red, green, blue, alpha);
+}
+.header1 .right{
+    float: inline-end;
+}
+.header1 .right ol{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+.header1 .right ol li,a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
