@@ -226,6 +226,41 @@
             <p>Message Me Here 😇
             <button type="button"><a href="index.html">Home</a></button></p>
         </div>
+
+        <div class="message2">
+            <form action="#" onsubmit="return validateForm()" method="post" name="myForm">
+            
+                <div class="formdesign" id="name">
+                    <label>*Full name</label>
+                    <input type="text" name="fname" placeholder="Enter your name " required>
+                    <b><span class="formerror" style="color: red;"></span></b>
+                </div>
+
+                <div class="formdesign" id="email">
+                    <label>*Email address</label>
+                    <input type="email" name="femail" placeholder="Enter your email" required>
+                    <b><span class="formerror" style="color: red;"></span></b>
+                </div>
+
+                <div class="formdesign" id="subject">
+                    <label>*Subject</label>
+                    <input type="text" name="fsubject" placeholder="Enter subject" required>
+                    <b><span class="formerror" style="color: red;"></span></b>
+                </div>
+
+                <div class="formdesign" id="mess">
+                    <label>*Email address</label>
+                    <input type="text" name="fmess" placeholder="Enter your message here........." required>
+                    <b><span class="formerror" style="color: red;"></span></b>
+                </div>
+
+                <div class="btn">
+                    <button type="submit" name="save" onclick="myFunction()">Send Message</button>
+                    <button type="reset">Refresh</button>
+                </div>
+
+            </form>
+        </div>
     </div>
 
 </body>
