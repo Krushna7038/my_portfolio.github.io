@@ -176,3 +176,37 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.body3 .resume2 {
+    padding: 10px;
+    display: flex;
+}
+.body3 .resume2 .resume21{
+    width: 50%;
+    border: 1px solid white;
+}
+.body3 .resume2 .res_edu1{
+    padding: 20px;
+    height: max-content;
+    border: 1px solid white;
+}
+.body3 .resume2 .res_edu1 h2{
+    color: aqua;
+    margin: 0%;
+}
+.body3 .resume2 .res_edu1 .res_edu11{
+    color: white;
+    line-height: 0%;
+}
+.body3 .resume2 .res_edu1 .res_edu11 i{
+    float: right;
+}
+.body3 .resume2 .res_edu1 .res_edu12{
+    color: white;
+}
+
+
+.body3 .resume2 .resume22{
+    width: 50%;
+     border: 1px solid white;
+}
+
