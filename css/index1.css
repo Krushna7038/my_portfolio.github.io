@@ -328,3 +328,40 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.body5 .message2{
+    margin-left: 20%;
+    padding: 10px;
+    width: 60%;
+    height: fit-content;
+    background-color: #9c79af;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.body5 .message2 form .formdesign{
+    margin: 20px;
+}
+.body5 .message2 form .formdesign input{
+    width: 100%;
+    line-height: 25px;
+}
+.body5 .message2 form .formdesign textarea{
+    border-radius: 10px;
+}
+.body5 .message2 form .btn{
+    margin: 40px;
+    margin-left:32%;
+}
+.body5 .message2 form .btn button{
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body5 .message2 form .btn button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
