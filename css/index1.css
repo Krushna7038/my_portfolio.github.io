@@ -210,3 +210,121 @@ body{
      border: 1px solid white;
 }
 
+
+
+                                          /*BODY4*/
+
+.body4{
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    height: max-content;
+    overflow: hidden;
+}
+.body4 .contact1{
+    margin-top: 50px;
+    color: cyan;
+    font-size: 30px;
+    text-align: center;
+}.body4 .contact1 p{
+    margin-left: 80px;
+}
+.body4 .contact1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body4 .contact1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.body4 .contact2{
+    align-items: center;
+}
+.body4 .contact2 .contact21{
+    display: inline-flex;
+    margin-left: 40%;
+}
+.body4 .contact2 .contact_21{
+    display: inline-flex;
+    margin-left: 40%;
+}
+.body4 .contact2 .contact21 p{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.body4 .contact2 .contact_21 p{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.body4 .contact2 .contact22 .email_in{
+    margin-left: 20%;
+}
+.body4 .contact2 .contact22 .email_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .mobile_in{
+    margin-left: 10%;
+}
+.body4 .contact2 .contact22 .mobile_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .whatsapp_in{
+    margin-left: 10%;
+}
+.body4 .contact2 .contact22 .whatsapp_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .linked_in{
+    margin-left: 10%;
+}
+.body4 .contact2 .contact22 .linked_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .instagram_in{
+    margin-left: 10%;
+}
+.body4 .contact2 .contact22 .instagram_in img{
+    width: 40px;
+    height: fit-content;
+}
+
+
+
+                                  /*BODY5*/
+
+.body5{
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+    height: max-content;
+    overflow: hidden;
+}
+.body5 .message1{
+    margin-top: 50px;
+    color: cyan;
+    font-size: 30px;
+    text-align: center;
+}.body5 .message1 p{
+    margin-left: 80px;
+}
+.body5 .message1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body5 .message1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
