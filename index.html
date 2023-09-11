@@ -228,29 +228,29 @@
         </div>
 
         <div class="message2">
-            <form action="#" onsubmit="return validateForm()" method="post" name="myForm">
+            <form action="index1.php"  onsubmit="return validateForm()" method="post" name="myForm">
             
                 <div class="formdesign" id="name">
-                    <label>*Full name</label>
+                    <label>*Full name</label><br>
                     <input type="text" name="fname" placeholder="Enter your name " required>
                     <b><span class="formerror" style="color: red;"></span></b>
                 </div>
 
                 <div class="formdesign" id="email">
-                    <label>*Email address</label>
+                    <label>*Email address</label><br>
                     <input type="email" name="femail" placeholder="Enter your email" required>
                     <b><span class="formerror" style="color: red;"></span></b>
                 </div>
 
                 <div class="formdesign" id="subject">
-                    <label>*Subject</label>
+                    <label>*Subject</label><br>
                     <input type="text" name="fsubject" placeholder="Enter subject" required>
                     <b><span class="formerror" style="color: red;"></span></b>
                 </div>
 
                 <div class="formdesign" id="mess">
-                    <label>*Email address</label>
-                    <input type="text" name="fmess" placeholder="Enter your message here........." required>
+                    <label>*Message</label><br>
+                    <textarea name="fmess" rows="10" cols="103" placeholder="Enter your message here........." required></textarea>
                     <b><span class="formerror" style="color: red;"></span></b>
                 </div>
 
@@ -258,10 +258,10 @@
                     <button type="submit" name="save" onclick="myFunction()">Send Message</button>
                     <button type="reset">Refresh</button>
                 </div>
-
             </form>
         </div>
     </div>
-
 </body>
+
+<script src="js/index1.js"></script>
 </html>
