@@ -365,3 +365,370 @@ body{
     color: white;
     font-weight: bold;
 }
+
+
+
+                                   /*MOBILE VIEW*/
+
+@media screen and (max-width:600px)
+{
+                                  /*HEADER*/
+
+
+.header1{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: cyan;
+}
+.header1 nav{
+    display: flex;
+}
+.header1 nav .left{
+    width: 25%;
+    float: left;
+    height: 60px;
+}
+.header1 nav .left .logo{
+    width: 50%;
+    margin: 10px;
+}
+.header1 .cen{
+    width: 65%;
+}
+.header1 .cen .mar_tag{
+    width: 100%;
+}
+.header1 .right{
+    float: right;
+    width: 30%;
+    height: 60px;
+}
+.header1 .right ol{
+    list-style: none;
+    display: flex;
+    
+}
+.header1 .right ol li,a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+                                                              /*BODY1*/
+
+.body1{
+    display: block;
+}
+.body1 .left_body{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(to right,rgb(100, 111, 204), #9c79af, #d68086);
+    border: solid;
+}
+.body1 .left_body .img1{
+    width: 40%;
+    margin-left: 30%;
+}
+.body1 .left_body .img1 img{
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    border-radius: 200px;
+}
+.body1 .left_body .left_body_cont{
+    text-align: center;
+}
+.body1 .left_body .left_body_cont button{
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+.body1 .left_body .left_body_cont button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.body1 .right_body{
+    width: 100%;
+    height: fit-content;
+    border: solid;
+}
+.body1 .right_body #head1{
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+}
+.body1 .right_body #head2{
+    font-size: 20px;
+    margin: 50px;
+    color: cyan;
+}
+
+
+                                                                /*BODY2*/
+
+.body2{
+    padding: 10px;
+    background-color: rgb(62, 53, 53);
+    height: max-content;
+    overflow: hidden;
+}
+.body2 .about1{
+    margin-top: 60px;
+    color: green;
+    font-size: 40px;
+}
+.body2 .about1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body2 .about1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body2 .about2{
+    display: block;
+}
+.body2 .about2 .about21{
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    font-size: 15px;
+    color: white;
+}
+.body2 .about2 .about22{
+    padding: 20px;
+    width: 100%;
+}
+.body2 .about2 .about22 .about_img{
+    margin-left: 15px;
+}
+.body2 .about2 .about22 .about_img img{
+    width: 300px;
+    height: 300px;
+}
+
+
+                                     /*BODY3*/
+
+.body3{
+    padding: 5px;
+    background: rgba(0,0,0,0.6);
+    height: max-content;
+    overflow: hidden;
+}
+.body3 .resume1{
+    margin-top: 50px;
+    color: cyan;
+    font-size: 30px;
+    text-align: center;
+}
+.body3 .resume1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body3 .resume1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body3 .resume2 {
+    padding: 0px;
+    display: flex;
+}
+.body3 .resume2 .resume21{
+    width: 50%;
+    border: 1px solid white;
+}
+.body3 .resume2 .res_edu1{
+    padding: 4px;
+    height: max-content;
+    border: 1px solid white;
+}
+.body3 .resume2 .res_edu1 h2{
+    color: aqua;
+}
+.body3 .resume2 .res_edu1 .res_edu11{
+    color: white;
+    line-height: normal;
+}
+.body3 .resume2 .res_edu1 .res_edu11 i{
+    float: right;
+}
+.body3 .resume2 .res_edu1 .res_edu12{
+    color: white;
+}
+
+
+.body3 .resume2 .resume22{
+    width: 50%;
+    border: 1px solid white;
+}
+
+
+
+                                          /*BODY4*/
+.body4{
+    padding: 5px;
+    background: rgba(0,0,0,0.5);
+    height: max-content;
+    overflow: hidden;
+}
+.body4 .contact1{
+    margin-top: 50px;
+    color: cyan;
+}
+.body4 .contact1 p{
+    margin-left: 0px;
+    font-size: 20px;
+}
+.body4 .contact1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body4 .contact1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.body4 .contact2{
+    margin-left: 1px;
+}
+.body4 .contact2 .contact21{
+    margin-left: 25%;
+    display: inline-flex;
+    font-size: smaller;
+}
+.body4 .contact2 .contact_21{
+    margin-left: 3%;
+    display: inline-flex;
+    font-size: smaller;
+}
+.body4 .contact2 .contact22{
+    margin-top: 20px;
+}
+.body4 .contact2 .contact22 .email_in{
+    margin-left: 10%;
+}
+.body4 .contact2 .contact22 .email_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .mobile_in{
+    margin-left: 5%;
+}
+.body4 .contact2 .contact22 .mobile_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .whatsapp_in{
+    margin-left: 5%;
+}
+.body4 .contact2 .contact22 .whatsapp_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .linked_in{
+    margin-left: 5%;
+}
+.body4 .contact2 .contact22 .linked_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .instagram_in{
+    margin-left: 5%;
+}
+.body4 .contact2 .contact22 .instagram_in img{
+    width: 40px;
+    height: fit-content;
+}
+
+
+
+                                  /*BODY5*/
+
+.body5{
+    padding: 5px;
+    background: rgba(0,0,0,0.4);
+    height: max-content;
+    overflow: hidden;
+}
+.body5 .message1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: cyan;
+    font-size: 20px;
+}
+.body5 .message1 p{
+    margin-left: 10px;
+}
+.body5 .message1 button{
+    width: 100px;
+    min-height: 40px;
+    float: right;
+}
+.body5 .message1 button:hover{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.body5 .message2{
+    margin-left: 5px;
+    padding: 5px;
+    width: 95%;
+    height: fit-content;
+    background-color: #9c79af;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.body5 .message2 form .formdesign{
+    margin: 10px;
+}
+.body5 .message2 form .formdesign input{
+    width: 100%;
+    line-height: 25px;
+}
+.body5 .message2 form .formdesign textarea{
+    border-radius: 10px;
+    width: 100%;
+}
+.body5 .message2 form .btn{
+    margin: 40px;
+    margin-left:32%;
+}
+.body5 .message2 form .btn button{
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body5 .message2 form .btn button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+}
