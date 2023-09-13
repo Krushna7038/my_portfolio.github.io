@@ -29,6 +29,11 @@ body{
 .header1 .cen .mar_tag{
     width: 100%;
 }
+.header1 .cen2{
+    margin: 2px;
+    margin-top: 20px;
+    display: none;
+}
 .header1 .right{
     float: right;
     width: 30%;
@@ -368,7 +373,10 @@ body{
 
 
 
-                                   /*MOBILE VIEW*/
+     /*--------------------------MOBILE VIEW---------------------------------*/
+
+
+
 
 @media screen and (max-width:600px)
 {
@@ -385,7 +393,7 @@ body{
     display: flex;
 }
 .header1 nav .left{
-    width: 25%;
+    width: 20%;
     float: left;
     height: 60px;
 }
@@ -399,14 +407,23 @@ body{
 .header1 .cen .mar_tag{
     width: 100%;
 }
+.header1 .cen2{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    display: block;
+    cursor: pointer;
+}
 .header1 .right{
     float: right;
-    width: 30%;
+    width: 0%;
     height: 60px;
+    
 }
 .header1 .right ol{
     list-style: none;
     display: flex;
+    display: none;
     
 }
 .header1 .right ol li,a{
