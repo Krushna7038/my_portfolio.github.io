@@ -308,7 +308,7 @@ body{
                                   /*BODY5*/
 
 .body5{
-    padding: 20px;
+    padding: 10px;
     background: rgba(0,0,0,0.4);
     height: max-content;
     overflow: hidden;
@@ -370,10 +370,15 @@ body{
     color: white;
     font-weight: bold;
 }
+.body5 .copy_right{
+   float: right;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+}
 
 
-
-     /*--------------------------MOBILE VIEW---------------------------------*/
+     /*---------------------------------------------MOBILE VIEW---------------------------------------------*/
 
 
 
@@ -747,5 +752,11 @@ body{
     color: white;
     font-weight: bold;
 }
+.body5 .copy_right{
+    float: right;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+ }
 
 }
