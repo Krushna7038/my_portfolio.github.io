@@ -339,7 +339,7 @@ body{
     padding: 10px;
     width: 60%;
     height: fit-content;
-    background-color: #9c79af;
+    background-color: #cfa5e6;
     border: 2px solid white;
     border-radius: 20px;
 }
@@ -640,7 +640,7 @@ body{
     font-size: smaller;
 }
 .body4 .contact2 .contact_21{
-    margin-left: 3%;
+    margin-left: 10%;
     display: inline-flex;
     font-size: smaller;
 }
