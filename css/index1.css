@@ -397,6 +397,7 @@ body{
 }
 .header1 nav{
     display: flex;
+    border: 1px solid black;
 }
 .header1 nav .left{
     width: 20%;
@@ -414,10 +415,11 @@ body{
     width: 100%;
 }
 .header1 .cen2{
-    margin: 10px;
+    margin: 20px;
     margin-top: 20px;
-    font-size: 25px;
-    display: block;
+    width: 25px;
+    height: fit-content;
+    display: inline-block;
     cursor: pointer;
 }
 .header1 .right{
