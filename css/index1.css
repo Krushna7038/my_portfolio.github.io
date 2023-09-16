@@ -351,6 +351,7 @@ body{
     line-height: 25px;
 }
 .body5 .message2 form .formdesign textarea{
+    width: 100%;
     border-radius: 10px;
 }
 .body5 .message2 form .btn{
