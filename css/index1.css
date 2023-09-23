@@ -460,6 +460,7 @@ body{
 }
 .body1 .left_body .img1{
     width: 40%;
+    height: fit-content;
     margin-left: 30%;
 }
 .body1 .left_body .img1 img{
