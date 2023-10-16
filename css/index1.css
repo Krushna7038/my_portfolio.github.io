@@ -120,17 +120,24 @@ body{
     color: green;
     font-size: 50px;
 }
-.body2 .about1 button{
-    width: 100px;
-    min-height: 40px;
+.body2 .about1 a{
+    width: 50px;
+    min-height: fit-content;
     float: right;
 }
-.body2 .about1 button:hover{
+/*
+.body2 .about1 a:hover{
     background-color: blue;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+*/
+
+.body2 .about1 a img{
+    width: 50px;
+    height: fit-content;
 }
 .body2 .about2{
     display: flex;
@@ -169,18 +176,24 @@ body{
     font-size: 30px;
     text-align: center;
 }
-.body3 .resume1 button{
-    width: 100px;
-    min-height: 40px;
+.body3 .resume1 a{
+    width: 50px;
+    min-height: fit-content;
     float: right;
 }
-.body3 .resume1 button:hover{
+.body3 .resume1 a img{
+    width: 50px;
+    height: fit-content;
+}
+/*
+.body3 .resume1 a:hover{
     background-color: blue;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+*/
 .body3 .resume2 {
     padding: 10px;
     display: flex;
@@ -233,11 +246,16 @@ body{
 }.body4 .contact1 p{
     margin-left: 80px;
 }
-.body4 .contact1 button{
-    width: 100px;
-    min-height: 40px;
+.body4 .contact1 a{
+    width: 50px;
+    height: fit-content;
     float: right;
 }
+.body4 .contact1 a img{
+    width: 50px;
+    height: fit-content;
+}
+/*
 .body4 .contact1 button:hover{
     background-color: blue;
     border-radius: 10px;
@@ -245,7 +263,7 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+*/
 .body4 .contact2{
     align-items: center;
 }
@@ -321,11 +339,17 @@ body{
 }.body5 .message1 p{
     margin-left: 80px;
 }
-.body5 .message1 button{
-    width: 100px;
-    min-height: 40px;
+.body5 .message1 a{
+    width: 50px;
+    height: fit-content;
+    margin-right: 20px;
     float: right;
 }
+.body5 .message1 a img{
+    width: 50px;
+    height: fit-content;
+}
+/*
 .body5 .message1 button:hover{
     background-color: blue;
     border-radius: 10px;
@@ -333,7 +357,7 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+*/
 .body5 .message2{
     margin-left: 20%;
     padding: 10px;
