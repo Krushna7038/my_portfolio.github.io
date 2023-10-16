@@ -728,17 +728,22 @@ body{
 }
 .body5 .message1{
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: cyan;
     font-size: 20px;
 }
 .body5 .message1 p{
     margin-left: 10px;
 }
-.body5 .message1 button{
-    width: 100px;
-    min-height: 40px;
+.body5 .message1 a{
+    width: 50px;
+    height: fit-content;
+    margin-right: 0%;
     float: right;
+}
+.body5 .message1 a img{
+    width: 50px;
+    height: fit-content;
 }
 .body5 .message1 button:hover{
     background-color: blue;
