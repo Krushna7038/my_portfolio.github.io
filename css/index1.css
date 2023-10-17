@@ -540,11 +540,16 @@ body{
     color: green;
     font-size: 40px;
 }
-.body2 .about1 button{
-    width: 100px;
-    min-height: 40px;
+.body2 .about1 a{
+    width: 50px;
+    height: fit-content;
     float: right;
 }
+.body2 .about1 a img{
+    width: 50px;
+    height: fit-content;
+}
+/*
 .body2 .about1 button:hover{
     background-color: blue;
     border-radius: 10px;
@@ -552,6 +557,7 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+*/
 .body2 .about2{
     display: block;
 }
@@ -585,15 +591,21 @@ body{
 }
 .body3 .resume1{
     margin-top: 50px;
+    margin-bottom: 40px;
     color: cyan;
     font-size: 30px;
     text-align: center;
 }
-.body3 .resume1 button{
-    width: 100px;
-    min-height: 40px;
+.body3 .resume1 a{
+    width: 50px;
+    height: fit-content;
     float: right;
 }
+.body3 .resume1 a img{
+    width: 50px;
+    height: fit-content;
+}
+/*
 .body3 .resume1 button:hover{
     background-color: blue;
     border-radius: 10px;
@@ -601,6 +613,7 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+*/
 .body3 .resume2 {
     padding: 0px;
     display: flex;
@@ -651,11 +664,16 @@ body{
     margin-left: 0px;
     font-size: 20px;
 }
-.body4 .contact1 button{
-    width: 100px;
-    min-height: 40px;
+.body4 .contact1 a{
+    width: 50px;
+    height: fit-content;
     float: right;
 }
+.body4 .contact1 a img{
+    width: 50px;
+    height: fit-content;
+}
+/*
 .body4 .contact1 button:hover{
     background-color: blue;
     border-radius: 10px;
@@ -663,7 +681,7 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+*/
 .body4 .contact2{
     margin-left: 1px;
 }
@@ -745,6 +763,7 @@ body{
     width: 50px;
     height: fit-content;
 }
+/*
 .body5 .message1 button:hover{
     background-color: blue;
     border-radius: 10px;
@@ -752,7 +771,7 @@ body{
     box-shadow: 3px 2px red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+*/
 .body5 .message2{
     margin-left: 5px;
     padding: 5px;
