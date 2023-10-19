@@ -707,7 +707,7 @@ body{
     margin-top: 20px;
 }
 .body4 .contact2 .contact22 .email_in{
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .body4 .contact2 .contact22 .email_in img{
     width: 40px;
@@ -743,10 +743,12 @@ body{
 }
 .body4 .contact2 .contact22 .github_in{
     margin-left: 5%;
+    display: none;
 }
 .body4 .contact2 .contact22 .github_in img{
     width: 40px;
     height: fit-content;
+    display: none;
 }
 
 
