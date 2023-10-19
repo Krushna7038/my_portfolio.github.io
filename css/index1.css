@@ -287,7 +287,7 @@ body{
     margin-left: 10px;
 }
 .body4 .contact2 .contact22 .email_in{
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .body4 .contact2 .contact22 .email_in img{
     width: 40px;
@@ -318,6 +318,13 @@ body{
     margin-left: 10%;
 }
 .body4 .contact2 .contact22 .instagram_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .github_in{
+    margin-left: 10%;
+}
+.body4 .contact2 .contact22 .github_in img{
     width: 40px;
     height: fit-content;
 }
@@ -700,7 +707,7 @@ body{
     margin-top: 20px;
 }
 .body4 .contact2 .contact22 .email_in{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .body4 .contact2 .contact22 .email_in img{
     width: 40px;
@@ -731,6 +738,13 @@ body{
     margin-left: 5%;
 }
 .body4 .contact2 .contact22 .instagram_in img{
+    width: 40px;
+    height: fit-content;
+}
+.body4 .contact2 .contact22 .github_in{
+    margin-left: 5%;
+}
+.body4 .contact2 .contact22 .github_in img{
     width: 40px;
     height: fit-content;
 }
