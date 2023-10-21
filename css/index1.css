@@ -416,10 +416,13 @@ body{
 
 
 
-@media screen and (max-width:900px)
+@media screen and (max-width:600px)
 {
                                   /*HEADER*/
-
+body{
+    margin: 0%;
+    padding: 0%;
+}
 
 .header1{
     width: 100%;
@@ -429,7 +432,6 @@ body{
 }
 .header1 nav{
     display: flex;
-    border: 1px solid black;
 }
 .header1 nav .left{
     width: 20%;
@@ -488,7 +490,7 @@ body{
     width: 100%;
     height: fit-content;
     background: linear-gradient(to right,rgb(100, 111, 204), #9c79af, #d68086);
-    border: solid;
+    border-top: 1px solid;
 }
 .body1 .left_body .img1{
     width: 40%;
@@ -499,7 +501,7 @@ body{
     margin-top: 20px;
     width: 100%;
     height: fit-content;
-    border-radius: 200px;
+    border-radius: 200%;
 }
 .body1 .left_body .left_body_cont{
     text-align: center;
@@ -521,7 +523,9 @@ body{
 .body1 .right_body{
     width: 100%;
     height: fit-content;
-    border: solid;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 .body1 .right_body #head1{
     font-size: 20px;
@@ -567,18 +571,19 @@ body{
 }
 */
 .body2 .about2{
+    width: 100%;
     display: block;
 }
 .body2 .about2 .about21{
     padding: 10px;
-    width: 100%;
+    width: 95%;
     height: max-content;
     font-size: 15px;
     color: white;
 }
 .body2 .about2 .about22{
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 .body2 .about2 .about22 .about_img{
     margin-left: 15px;
@@ -790,7 +795,7 @@ body{
 }
 */
 .body5 .message2{
-    margin-left: 5px;
+    margin-left: 4px;
     padding: 5px;
     width: 95%;
     height: fit-content;
