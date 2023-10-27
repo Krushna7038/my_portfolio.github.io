@@ -66,3 +66,9 @@ function validateForm(){
     return returnval;
 
 }
+/*
+function myFunction(){
+    setTimeout(()=>{
+        alert("Thank you for messing me.")
+    },1000)
+}*/
