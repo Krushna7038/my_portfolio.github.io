@@ -471,7 +471,7 @@ body{
 .body1 .right_body .arr{
     position: fixed;
     bottom: 30px;
-    right: 20px;
+    right: 30px;
 }
 
 
@@ -682,8 +682,8 @@ body{
     margin-left: 60px;
 }
 .body5 .message2 form .btn button{
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 35px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
