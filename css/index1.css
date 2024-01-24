@@ -468,7 +468,9 @@ body{
     color: cyan;
 }
 .body1 .right_body .arr{
-    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
 }
 
 
@@ -646,7 +648,7 @@ body{
     overflow: hidden;
 }
 .body5 .message1{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 40px;
     color: cyan;
     font-size: 20px;
@@ -676,7 +678,7 @@ body{
 }
 .body5 .message2 form .btn{
     margin: 40px;
-    margin-left:32%;
+    border: 1px solid red;
 }
 .body5 .message2 form .btn button{
     width: 120px;
