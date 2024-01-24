@@ -106,8 +106,9 @@ body{
 .body1 .right_body .arr{
     width: 50px;
     float: right;
-    margin-right: 10px;
-    margin-top: 10%;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
 }
 .body1 .right_body .arr a img{
     position: fixed; 
@@ -678,12 +679,11 @@ body{
 }
 .body5 .message2 form .btn{
     margin: 40px;
-    border: 1px solid red;
+    margin-left: 60px;
 }
 .body5 .message2 form .btn button{
     width: 120px;
     height: 40px;
-    margin: 10px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
