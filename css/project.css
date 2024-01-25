@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #3586ff;
+    overflow: hidden;
+}
+section .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-size: 1000px 100px;
+}
+section .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+section .wave.wave2{
+    animation: animate2 5s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+section .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+section .wave.wave4{
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+section .wave.wave5{
+    animation: animate 30s linear infinite;
+    z-index: 996;
+    opacity: 0.6;
+    animation-delay: -3s;
+    bottom: 25px;
+}
+section .wave.wave6{
+    animation: animate2 5s linear infinite;
+    z-index: 995;
+    opacity: 0.4;
+    animation-delay: -5s;
+    bottom: 30px;
+}
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+
+section .home_btn{
+    margin: 10px;
+    margin-right: 40px;
+    padding: 2px;
+    height: fit-content;
+}
+section .home_btn button{
+    width: 50px;
+    padding: 2px;
+}
+section .home_btn button a{
+    text-decoration: none;
+}
+section .project_data{
+    display: flex;
+}
+section .project_data .project1{
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+}
+section .project_data .project1 .project1_name h2:hover{
+    color: white;
+}
+section .project_data .project11{
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: azure;
+    box-shadow: 5px 5px 15px black;
+}
+section .project_data .project1 a img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 25px;  
+}
+section .project_data .project1 .project1_btn button{
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+section .project_data .project1 .project1_btn button:hover{
+    background-color: orangered;
+    box-shadow: 2px 2px 10px black;
+    font-size: larger;
+}
