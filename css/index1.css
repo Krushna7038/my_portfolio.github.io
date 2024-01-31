@@ -70,6 +70,7 @@ body{
     width: 100%;
     height: 290px;
     border-radius: 200px;
+    border: 2px solid black;
 }
 .body1 .left_body .left_body_cont{
     text-align: center;
@@ -125,15 +126,20 @@ body{
     overflow: hidden;
 }
 .body2 .about1{
-    margin-top: 50px;
+    color: green;
+    font-size: 50px;
+}
+.body2 .about1 p{
+    margin-top: 10px;
     color: green;
     font-size: 50px;
 }
 .body2 .about2{
     display: flex;
+    margin-bottom: 0%;
 }
 .body2 .about2 .about21{
-    padding: 20px;
+    padding: 10px;
     width: 60%;
     height: max-content;
     font-size: 20px;
@@ -145,6 +151,7 @@ body{
 }
 .body2 .about2 .about22 .about_img{
     margin-left: 150px;
+    margin-right: 50px;
 }
 .body2 .about2 .about22 .about_img img{
     width: 300px;
@@ -161,11 +168,12 @@ body{
     overflow: hidden;
 }
 .body3 .resume1{
-    margin-top: 50px;
-    margin-bottom: 40px;
     color: cyan;
     font-size: 30px;
     text-align: center;
+}
+.body3 .resume1 p{
+    margin-top: 0%;
 }
 .body3 .resume2 {
     padding: 10px;
@@ -212,33 +220,34 @@ body{
     overflow: hidden;
 }
 .body4 .contact1{
-    margin-top: 50px;
     color: cyan;
     font-size: 30px;
     text-align: center;
-}.body4 .contact1 p{
-    margin-left: 80px;
 }
 .body4 .contact2{
     align-items: center;
 }
 .body4 .contact2 .contact21{
-    display: inline-flex;
     margin-left: 40%;
+    display: inline-flex;
 }
 .body4 .contact2 .contact_21{
+    margin-left: 35%;
+    margin-bottom: 20px;
+    margin-top: 10px;
     display: inline-flex;
-    margin-left: 40%;
 }
 .body4 .contact2 .contact21 p{
     font-size: larger;
     font-weight: bold;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .body4 .contact2 .contact_21 p{
     font-size: larger;
     font-weight: bold;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .body4 .contact2 .contact22 .email_in{
     margin-left: 15%;
@@ -294,12 +303,15 @@ body{
     overflow: hidden;
 }
 .body5 .message1{
-    margin-top: 50px;
+    margin-bottom: 10px;
     color: cyan;
     font-size: 30px;
     text-align: center;
-}.body5 .message1 p{
+}
+.body5 .message1 p{
     margin-left: 80px;
+    margin-top: 0%;
+    margin-bottom: 10px;
 }
 .body5 .message2{
     margin-left: 20%;
