@@ -8,7 +8,7 @@ body{
 
 .header1{
     width: 100%;
-    height: 55px;
+    height: fit-content;
     overflow: hidden;
     background-color: cyan;
 }
@@ -17,31 +17,37 @@ body{
 }
 .header1 nav .left{
     width: 20%;
+    height: fit-content;
     float: left;
 }
 .header1 nav .left .logo{
+    margin-top: 2px;
     width:40px;
     margin-left: 10px;
-    margin-top: 5px;
 }
 .header1 .cen{
     width: 65%;
+    height: fit-content;
 }
 .header1 .cen .mar_tag{
+    margin-top: 5px;
+    margin-bottom: 15px;
     width: 100%;
 }
 .header1 .cen2{
-    margin: 2px;
     display: none;
 }
 .header1 .right{
+    width: 25%;
+    padding-bottom: 0%;
     float: right;
 }
 .header1 .right ol{
+    margin-top: 0%;
+    margin-bottom: 0%;
     list-style: none;
     display: flex;
-    padding: 5px;
-    
+    padding: 5px;   
 }
 .header1 .right ol li,a{
     margin: 5px;
@@ -70,7 +76,6 @@ body{
     width: 100%;
     height: 290px;
     border-radius: 200px;
-    border: 2px solid black;
 }
 .body1 .left_body .left_body_cont{
     text-align: center;
@@ -373,7 +378,7 @@ body{
 
 .header1{
     width: 100%;
-    max-height: 50px;
+    height: fit-content;
     overflow: hidden;
     background-color: cyan;
 }
@@ -385,7 +390,8 @@ body{
     float: left;
 }
 .header1 nav .left .logo{
-    width: 45%;
+    margin-top: 5px;
+    width: 40%;
     margin-left: 20px;
 }
 .header1 .cen{
@@ -395,22 +401,20 @@ body{
     width: 100%;
 }
 .header1 .cen2{
-    margin: 20px;
-    margin-top: 15px;
-    width: 25px;
-    height: fit-content;
+    width: 15%;
     display: inline-block;
-    cursor: pointer;
-
 }
 .header1 .cen2 a img{
-    width: 100%;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 45%;
     height: fit-content;
 }
 .header1 .right{
     float: right;
     width: 0%;
-    height: 60px;  
+    height: 60px; 
+    display: none; 
 }
 .header1 .right ol{
     list-style: none;
