@@ -122,12 +122,11 @@ body{
 .body1 .right_body h2{
     text-align: center;
     color: cyan;
-    animation: text2 5s;
+    animation: text2 3s;
 }
 @keyframes text2{
     0%{
         font-size: larger;
-        rotate: 270deg;
     }
 }
 .body1 .right_body .arr{
