@@ -631,16 +631,16 @@ body{
     font-size: 20px;
 }
 .body4 .contact2{
-    margin: 1px;
+    margin-top: 1px;
     padding-bottom:10px;
 }
 .body4 .contact2 .contact21{
-    margin-left: 22%;
-    font-size: large;
+    margin-left: 17%;
+    font-size: medium;
 }
 .body4 .contact2 .contact_21{
-    margin-left: 6%;
-    font-size: large;
+    margin-left: 3%;
+    font-size: 15px;
 }
 .body4 .contact2 .contact22{
     display: inline-flexbox;
@@ -648,27 +648,27 @@ body{
     padding: 5px;
 }
 .body4 .contact2 .contact22 .email_in img{
-    margin-left: 4%;
+    margin-left: 3%;
     width: 35px;
     height: fit-content;
 }
 .body4 .contact2 .contact22 .mobile_in img{
-    margin-left: 8%;
+    margin-left: 7%;
     width: 35px;
     height: fit-content;
 }
 .body4 .contact2 .contact22 .whatsapp_in img{
-    margin-left: 8%;
+    margin-left: 7%;
     width: 35px;
     height: fit-content;
 }
 .body4 .contact2 .contact22 .linked_in img{
-    margin-left: 8%;
+    margin-left: 7%;
     width: 35px;
     height: fit-content;
 }
 .body4 .contact2 .contact22 .instagram_in img{
-    margin-left: 8%;
+    margin-left: 7%;
     width: 35px;
     height: fit-content;
 }
