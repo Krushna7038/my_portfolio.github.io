@@ -80,6 +80,20 @@ body{
 .body1 .left_body .left_body_cont{
     text-align: center;
 }
+.body1 .left_body .left_body_cont h1{
+    animation: text1 5s 1;
+}
+@keyframes text1{
+    0%{
+        color: blue;
+        font-size: larger;
+        rotate: 360deg;
+    }
+    30%{
+        font-size: larger;
+    }
+}
+
 .body1 .left_body .left_body_cont button{
     width: 100px;
     min-height: 40px;
@@ -103,10 +117,23 @@ body{
     margin-top: 300px;
     margin-left: 300px;
     color: white;
+    animation: text2 5s 1;
 }
 .body1 .right_body h2{
     margin-left: 350px;
     color: cyan;
+    animation: text2 5s 1;
+}
+@keyframes text2{
+    0%{
+        margin-bottom: 0%;
+        color: blue;
+        
+    }
+    30%{
+        margin-bottom: 0%;
+        font-size: larger;
+    }
 }
 .body1 .right_body .arr{
     width: 50px;
@@ -220,7 +247,7 @@ body{
 .body4{
     padding: 20px;
     background: rgba(0,0,0,0.5);
-    height: max-content;
+    height: 600px;
     overflow: hidden;
 }
 .body4 .contact1{
@@ -229,15 +256,16 @@ body{
     text-align: center;
 }
 .body4 .contact2{
+    margin-top: 2px;
     align-items: center;
 }
 .body4 .contact2 .contact21{
+    margin-top: 2px;
     margin-left: 40%;
     display: inline-flex;
 }
 .body4 .contact2 .contact_21{
     margin-left: 35%;
-    margin-bottom: 20px;
     margin-top: 10px;
     display: inline-flex;
 }
@@ -253,45 +281,62 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
-.body4 .contact2 .contact22 .email_in{
+.body4 .contact2 .contact22{
+    margin: 2px;
+    margin-top: 50px;
+    padding: 5px;
+}
+/*.body4 .contact2 .contact22 .email_in{
+    width: 50px;
     margin-left: 15%;
-}
+    border: 1px solid white;
+}*/
 .body4 .contact2 .contact22 .email_in img{
+    margin-left: 15%;
     width: 40px;
-    height: fit-content;
 }
-.body4 .contact2 .contact22 .mobile_in{
+/*.body4 .contact2 .contact22 .mobile_in{
     margin-left: 10%;
-}
+    border: 1px solid white;
+}*/
 .body4 .contact2 .contact22 .mobile_in img{
+    margin-left: 10%;
     width: 40px;
     height: fit-content;
 }
-.body4 .contact2 .contact22 .whatsapp_in{
+/*.body4 .contact2 .contact22 .whatsapp_in{
     margin-left: 10%;
-}
+    border: 1px solid white;
+}*/
 .body4 .contact2 .contact22 .whatsapp_in img{
+    margin-left: 10%;
     width: 40px;
     height: fit-content;
 }
-.body4 .contact2 .contact22 .linked_in{
+/*.body4 .contact2 .contact22 .linked_in{
     margin-left: 10%;
-}
+    border: 1px solid white;
+}*/
 .body4 .contact2 .contact22 .linked_in img{
+    margin-left: 10%;
     width: 40px;
     height: fit-content;
 }
-.body4 .contact2 .contact22 .instagram_in{
+/*.body4 .contact2 .contact22 .instagram_in{
     margin-left: 10%;
-}
+    border: 1px solid white;
+}*/
 .body4 .contact2 .contact22 .instagram_in img{
+    margin-left: 10%;
     width: 40px;
     height: fit-content;
 }
-.body4 .contact2 .contact22 .github_in{
+/*.body4 .contact2 .contact22 .github_in{
     margin-left: 10%;
-}
+    border: 1px solid white;
+}*/
 .body4 .contact2 .contact22 .github_in img{
+    margin-left: 10%;
     width: 40px;
     height: fit-content;
 }
@@ -580,75 +625,63 @@ body{
 .body4{
     padding: 5px;
     background: rgba(0,0,0,0.5);
-    height: max-content;
+    height: 100vh;
+    align-items: center;
     overflow: hidden;
 }
 .body4 .contact1{
-    margin-top: 50px;
+    margin-top: 150px;
     color: cyan;
 }
 .body4 .contact1 p{
-    margin-left: 0px;
     font-size: 20px;
 }
 .body4 .contact2{
-    margin-left: 1px;
+    margin: 1px;
+    padding-bottom:10px;
 }
 .body4 .contact2 .contact21{
-    margin-left: 25%;
-    display: inline-flex;
-    font-size: smaller;
+    margin-left: 22%;
+    font-size: large;
 }
 .body4 .contact2 .contact_21{
-    margin-left: 8%;
-    display: inline-flex;
-    font-size: smaller;
+    margin-left: 6%;
+    font-size: large;
 }
 .body4 .contact2 .contact22{
+    display: inline-flexbox;
     margin-top: 20px;
-}
-.body4 .contact2 .contact22 .email_in{
-    margin-left: 10%;
+    padding: 5px;
 }
 .body4 .contact2 .contact22 .email_in img{
-    width: 40px;
+    margin-left: 4%;
+    width: 35px;
     height: fit-content;
-}
-.body4 .contact2 .contact22 .mobile_in{
-    margin-left: 5%;
 }
 .body4 .contact2 .contact22 .mobile_in img{
-    width: 40px;
+    margin-left: 8%;
+    width: 35px;
     height: fit-content;
-}
-.body4 .contact2 .contact22 .whatsapp_in{
-    margin-left: 5%;
 }
 .body4 .contact2 .contact22 .whatsapp_in img{
-    width: 40px;
+    margin-left: 8%;
+    width: 35px;
     height: fit-content;
-}
-.body4 .contact2 .contact22 .linked_in{
-    margin-left: 5%;
 }
 .body4 .contact2 .contact22 .linked_in img{
-    width: 40px;
+    margin-left: 8%;
+    width: 35px;
     height: fit-content;
 }
-.body4 .contact2 .contact22 .instagram_in{
-    margin-left: 5%;
-}
 .body4 .contact2 .contact22 .instagram_in img{
-    width: 40px;
+    margin-left: 8%;
+    width: 35px;
     height: fit-content;
 }
 .body4 .contact2 .contact22 .github_in{
-    margin-left: 5%;
     display: none;
 }
 .body4 .contact2 .contact22 .github_in img{
-    width: 40px;
-    height: fit-content;
     display: none;
 }
 
