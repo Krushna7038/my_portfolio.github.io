@@ -122,11 +122,29 @@ body{
 .body1 .right_body h2{
     text-align: center;
     color: cyan;
-    animation: text2 3s;
+    animation: text2 5s;
 }
 @keyframes text2{
     0%{
-        font-size: larger;
+        font-size: smaller;
+        animation-delay: 5000ms;
+        color: blue;
+    }
+    30%{
+        animation-delay: 4000ms;
+        color: red;
+    }
+    60%{
+        animation-delay: 4000ms;
+        color: yellow;
+    }
+    90%{
+        animation-delay: 5000ms;
+        color: violet;
+    }
+    100%{
+        animation-delay: 2000ms;
+        color: white;
     }
 }
 .body1 .right_body .arr{
@@ -537,26 +555,32 @@ body{
     overflow: hidden;
 }
 .body2 .about1{
-    margin-top: 60px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.body2 .about1 p{
+    font-size: 30px;
     color: green;
-    font-size: 40px;
+    margin-bottom: 10px;
 }
 .body2 .about2{
     width: 100%;
     display: block;
+    padding: 1px;
 }
 .body2 .about2 .about21{
-    padding: 10px;
+    padding: 9px;
     width: 95%;
     height: max-content;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
 }
 .body2 .about2 .about22{
     padding: 20px;
-    width: 95%;
+    width: 89%;
 }
 .body2 .about2 .about22 .about_img{
+    width: 300px;
     margin-left: 15px;
 }
 .body2 .about2 .about22 .about_img img{
