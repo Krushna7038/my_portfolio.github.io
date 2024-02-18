@@ -206,7 +206,7 @@ body{
 
 .body3{
     padding: 20px;
-    background: rgba(0,0,0,0.6);
+    background: black;
     height: max-content;
     overflow: hidden;
 }
@@ -230,6 +230,7 @@ body{
     padding: 20px;
     height: max-content;
     border: 1px solid white;
+    border-bottom: none;
 }
 .body3 .resume2 .res_edu1 h2{
     color: aqua;
@@ -304,7 +305,7 @@ body{
     border: 1px solid white;
 }*/
 .body4 .contact2 .contact22 .email_in img{
-    margin-left: 15%;
+    margin-left: 13%;
     width: 40px;
 }
 /*.body4 .contact2 .contact22 .mobile_in{
@@ -593,7 +594,7 @@ body{
 
 .body3{
     padding: 5px;
-    background: rgba(0,0,0,0.6);
+    /*background: rgba(0,0,0,0.6);*/
     height: max-content;
     overflow: hidden;
 }
@@ -607,6 +608,8 @@ body{
 .body3 .resume2 {
     padding: 0px;
     display: flex;
+    font-size: small;
+    font-weight: lighter;
 }
 .body3 .resume2 .resume21{
     width: 50%;
@@ -616,6 +619,9 @@ body{
     padding: 4px;
     height: max-content;
     border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none
 }
 .body3 .resume2 .res_edu1 h2{
     color: aqua;
