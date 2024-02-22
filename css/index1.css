@@ -231,6 +231,9 @@ body{
     height: max-content;
     border: 1px solid white;
     border-bottom: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none
 }
 .body3 .resume2 .res_edu1 h2{
     color: aqua;
@@ -751,6 +754,8 @@ body{
 .body5 .message2 form .btn{
     margin: 40px;
     margin-left: 60px;
+    margin-right: 50px;
+    display: inline block;
 }
 .body5 .message2 form .btn button{
     width: 100px;
