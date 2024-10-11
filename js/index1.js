@@ -80,7 +80,7 @@ alert("OOPS!! SOMETHING WENT WRONG!")
 
 setTimeout(() => {
     display();
-}, 1000);
+}, 500);
 
 function display(){
     ele.style.display = "block";
