@@ -74,13 +74,13 @@
 //     },1000)
 // }*/
 
-let ele = document.getElementById("container1");
+let ele = document.getElementById("container2");
 
-alert("OOPS!! SOMETHING WENT WRONG!")
+// alert("OOPS!! SOMETHING WENT WRONG!")
 
 setTimeout(() => {
     display();
-}, 500);
+}, 1000);
 
 function display(){
     ele.style.display = "block";

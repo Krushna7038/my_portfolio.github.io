@@ -11,20 +11,29 @@ main {
     background-color: lightseagreen;
 }
 
-main #container1 {
+main #container1{
+    width: 100%;
+    height: 10vh;
+    margin: 30vh auto 0vh;
+}
+main #container1 h1{
+    text-align: center;
+}
+
+main #container2 {
     width: 40%;
     height: 30vh;
-    margin: 35vh auto;
+    margin: 2vh auto;
     text-align: center;
     display: none;
 }
-main #container1 button{
+main #container2 button{
     margin: 40px auto;
     width: 100px;
     height: 40px;
     cursor: pointer;
 }
-main #container1 button a{
+main #container2 button a{
     text-decoration: none;
 }
 
