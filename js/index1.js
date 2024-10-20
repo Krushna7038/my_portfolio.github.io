@@ -87,5 +87,5 @@ function display(){
 }
 
 function comment() {
-    alert("Hii! WELCOME TO MY NEW WEBSITE!");
+    alert("HII! WELCOME TO MY NEW WEBSITE!");
 }
